@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.landing_wrapper .nav-banner-wrapper:before {
+    position: absolute;
+    left: -120px;
+    bottom: 0;
+    content: "";
+    width: 400px;
+    height: 330px;
+    background-image: url(../src/asset/img/squadio-shape-2.svg);
+    background-position: top;
+    background-size: cover;
+}
