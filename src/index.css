@@ -2,7 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-.landing_wrapper .nav-banner-wrapper:before {
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@200;@500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*.landing_wrapper .nav-banner-wrapper:before {
     position: absolute;
     left: -120px;
     bottom: 0;
@@ -12,8 +18,4 @@
     background-image: url(../src/asset/img/squadio-shape-2.svg);
     background-position: top;
     background-size: cover;
-}
-
-.landing_wrapper .nav-banner-wrapper .Navbar {
-    padding:0 20px 0 20px;
-}
+}*/

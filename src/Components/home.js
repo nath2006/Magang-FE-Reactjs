@@ -1,10 +1,9 @@
 import React from 'react';
-import Navbar from './Navbar';
+import Navbar from './Navbar/Navbar';
 
-function Home() {
+export default function Home() {
   return (
     <div className='landing-wrapper h-screen bg-[#422e87]'>
-      <div className="nav-banner-wrapper">
       <Navbar /> 
       <div className="container align-items-center z-index-1 position-relative py-5">
         <div className="row align-items-center text-center text-lg-start">
@@ -16,8 +15,5 @@ function Home() {
         </div>
       </div>
       </div>
-    </div>
   );
 }
-
-export default Home;

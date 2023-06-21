@@ -1,0 +1,23 @@
+ .Navbar-wrapper {
+    margin:0 131.5px;
+    padding:0 12px;
+}
+
+.Navbar-wrapper .Navbar {
+    padding: 8px 0;
+}
+
+.Navbar-wrapper .Navbar a {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.Navbar-wrapper .Left-nav {
+    position: relative;
+    right: 150px;
+}
+
+/* .Navbar-wrapper .Right-nav .btn-one {
+    margin-right: 20px;
+} */
+
