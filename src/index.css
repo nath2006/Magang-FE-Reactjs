@@ -13,3 +13,7 @@
     background-position: top;
     background-size: cover;
 }
+
+.landing_wrapper .nav-banner-wrapper .Navbar {
+    padding:0 20px 0 20px;
+}

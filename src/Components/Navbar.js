@@ -1,49 +1,23 @@
-import { Link } from 'react-router-dom';
+import React from 'react';
+import Logo from '../asset/img/logo.svg';
 
 function Navbar() {
   return (
-    <nav className="bg-gray-800">
-        <div className="flex items-center justify-between h-16">
-          <div className="flex-shrink-0">
-            <Link to="/" className="text-white font-bold text-xl">
-              Your Logo
-            </Link>
-          </div>
-          <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-4">
-              <Link
-                to="/"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-              >
-                Home
-              </Link>
-              <Link
-                to="/services"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-              >
-                Services
-              </Link>
-              <Link
-                to="/how-it-works"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-              >
-                How It Works
-              </Link>
-              <Link
-                to="/partners"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-              >
-                Partners
-              </Link>
-              <Link
-                to="/success-stories"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-              >
-                Success Stories
-              </Link>
-            </div>
-          </div>
-        </div>
+    <nav className="Navbar flex items-center justify-between p-4 text-white">
+      <div className="flex items-center">
+        <img src={Logo} alt="Logo" className="Logo" width="120"/>
+      </div>
+      <ul className="flex space-x-4 justify-center"> {/* Menambahkan kelas justify-center */}
+        <li>
+          <a href="/" className="text-white hover:text-gray-300">Home</a>
+        </li>
+        <li>
+          <a href="/about" className="text-white hover:text-gray-300">About</a>
+        </li>
+        <li>
+          <a href="/contact" className="text-white hover:text-gray-300">Contact</a>
+        </li>
+      </ul>
     </nav>
   );
 }
