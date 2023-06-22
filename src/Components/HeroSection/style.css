@@ -1,0 +1,15 @@
+.Hero-wrapper {
+    margin:0 150px;
+    padding: 100px 0;
+}
+
+.Hero-wrapper .Left-content .Heading-1 {
+    font-size: 66px;
+}
+
+.Hero-wrapper .Left-content .Heading-1 .second-heading {
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 0;
+}
+
