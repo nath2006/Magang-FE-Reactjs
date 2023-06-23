@@ -31,7 +31,46 @@ a {
     }
 }
 
+@media (min-width: 1024px) {
+    .Navbar-wrapper .Left-nav {
+        position: relative;
+        right: 20px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .Navbar-wrapper .Left-nav {
+        position: relative;
+        right: 150px;
+    }
+}
+
+
+
 .Navbar-wrapper .Right-nav .Right-li {
     padding: 10px 20px;
 }
 
+.Navbar-wrapper .Navbar::after{
+    position: absolute;
+    top: 0;
+    right: -100px;
+    bottom: 0;
+    content: "";
+    width: 65%;
+    background-image: url(../../asset/img/top-stroke.svg);
+    background-position: bottom;
+    background-size: cover;
+}
+
+.Navbar-wrapper .Navbar:before {
+    position: absolute;
+    left: -120px;
+    bottom: 0;
+    content: "";
+    width: 400px;
+    height: 330px;
+    background-image: url(../../asset/img/squadio-shape-2.svg);
+    background-position: top;
+    background-size: cover;
+}

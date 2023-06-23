@@ -32,7 +32,7 @@ const Navbar = () => {
             Build Your Team
           </button>
           <button className="px-4 py-2">
-            <span className="border border-yellow-500 text-yellow-500 px-4 py-2 rounded  w-full">Apply as a talent</span>
+            <span className="border px-4 py-2  border-yellow-500 text-yellow-500 rounded  w-full">Apply as a talent</span>
           </button>
           <ul>
             <li className=" Right-li flex justify-end ml-4">
