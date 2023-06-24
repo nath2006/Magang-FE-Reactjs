@@ -24,27 +24,30 @@ a {
     right: 150px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     .Navbar-wrapper .Left-nav {
-        position: relative;
-        right: 30px;
+        right: 20px;
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
     .Navbar-wrapper .Left-nav {
-        position: relative;
-        right: 20px;
+        right: 30px;
     }
 }
 
 @media (min-width: 1280px) {
     .Navbar-wrapper .Left-nav {
-        position: relative;
-        right: 150px;
+        right: 0px;
     }
 }
 
+
+.Navbar-wrapper .Left-nav {
+    padding: 8px 16px;
+    position: relative;
+    right: 150px;
+}
 
 
 .Navbar-wrapper .Right-nav .Right-li {
