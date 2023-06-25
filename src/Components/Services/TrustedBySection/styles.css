@@ -1,0 +1,46 @@
+.TrustedBy {
+  background-color: #f7f7f7;
+  padding: 40px 0;
+}
+
+.TrustedBy .container {
+  display: flex;
+  align-items: center;
+}
+
+.TrustedBy__content {
+  flex: 0 0 30%;
+  margin-right: 40px;
+}
+
+.TrustedBy__heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.TrustedBy__swiper-container {
+  width: 100%;
+}
+
+.TrustedBy__swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TrustedBy__logo-item {
+  background: #fff;
+  width: 120px;
+  height: 90px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.06);
+  padding: 25px;
+}
+
+.TrustedBy__logo {
+  max-width: 100%;
+  max-height: 100%;
+}

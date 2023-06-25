@@ -1,5 +1,5 @@
 import React from "react";
-import Talent from '../../asset/img/talents.png';
+import Talent from '../../../asset/img/talents.png';
 import './style.css'
 
 const HeroSection = () => {
