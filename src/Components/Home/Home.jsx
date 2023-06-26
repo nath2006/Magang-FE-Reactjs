@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar/Navbar';
 import HeroSection from './HeroSection/HeroSection';
+import './styles.css'
 
 export default function Home() {
   return (

@@ -21,6 +21,7 @@
 
 .TrustedBy__swiper-container {
   width: 100%;
+  overflow-x: hidden;
 }
 
 .TrustedBy__swiper-slide {
@@ -44,3 +45,4 @@
   max-width: 100%;
   max-height: 100%;
 }
+
