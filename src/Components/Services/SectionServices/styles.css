@@ -1,0 +1,9 @@
+h5 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.section-Services .container .row {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+}

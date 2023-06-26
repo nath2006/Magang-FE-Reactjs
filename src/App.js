@@ -6,10 +6,10 @@ import Services from './Components/Services/Services';
 
 function App() {
   return (
-    <>
+    <div className='landing-wrapper'>
       <Home />
       <Services/>
-    </>
+    </div>
   );
 }
 
