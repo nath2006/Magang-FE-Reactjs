@@ -4,7 +4,7 @@ import './styles.css';
 const SectionServices = () => {
   return (
     <div className="Section-Services py-10 bg-gray-100">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4">
             <div className="flex items-center">
                 <div className="row w-1/3">
                     <h5>
