@@ -1,13 +1,13 @@
 import React from "react";
-import './styles.css';
 
-import svgOne from '../../../asset/img/img-svg/svg-1.png';
+import './styles.css';
+import CardOne from './partials/CardOne/CardOne';
+import CardTwo from './partials/CardTwo/CardTwo';
 
 const SectionServices = () => {
   return (
-    <div className="section-Services py-10 bg-gray-100">
+    <div className="section-Services pt-100 pb-100 relativ">
         <div className="container mx-auto px-4">
-            <div className="flex items-center">
                 <div className="row w-1/3">
                     <h5>
                         Explore
@@ -18,25 +18,9 @@ const SectionServices = () => {
                     </p>
                 </div>  
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                <ul className="services-items flex flex-wrap">
-                    <li className="col">
-                        <div>
-                            <span className="serv-icon">
-                                <img src={svgOne}></img>
-                            </span>
-                            <h3>CTO as a services</h3>
-                            <p> 
-                                Hire a chief Technology officier in a 
-                                short term or long term basis to lead your 
-                                devlopmenet teams and develop your technology strategy 
-                            </p>
-                        </div>
-                    </li>
-
-                    
-                </ul>
-            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3">
+              <CardOne />
+              <CardTwo />
             </div>
         </div>
     </div>

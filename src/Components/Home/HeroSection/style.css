@@ -2,7 +2,9 @@
     margin:0 150px;
     padding: 100px 0;
 }
-
+.Hero-wrapper .Left-content {
+    margin-top: 3rem;
+}
 .Hero-wrapper .Left-content .Heading-1 {
     font-size: 66px;
 }

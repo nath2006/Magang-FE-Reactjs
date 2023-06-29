@@ -7,12 +7,14 @@ const HeroSection = () => {
     <div className="Hero-wrapper flex items-center justify-between">
       <div className="Left-content w-1/2">
         <h1 className="Heading-1 font-bold text-white">
-          <span className="text-yellow-400">Build</span> Your Team
+          <span>
+          <span className="text-yellow-400">Build</span> Your Tech Team
+          </span>
           <br></br>
           <span className="second-heading block text-white" >With Remote Top-Notch Talents</span>
         </h1>
           <button className="btn-one px-4 py-2 my-4 bg-yellow-500 text-gray-900 font-bold rounded">
-            Build Your Team
+            Hire Tech Team
           </button>
           <p className="Paragrahp text-white ">
             Looking for job instead? 
