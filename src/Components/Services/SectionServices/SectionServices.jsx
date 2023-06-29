@@ -3,6 +3,7 @@ import React from "react";
 import './styles.css';
 import CardOne from './partials/CardOne/CardOne';
 import CardTwo from './partials/CardTwo/CardTwo';
+import CardThird from './partials/CardThrid/CardThrid';
 
 const SectionServices = () => {
   return (
@@ -18,9 +19,10 @@ const SectionServices = () => {
                     </p>
                 </div>  
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3">
+            <div className="service-items p-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3">
               <CardOne />
               <CardTwo />
+              <CardThird />
             </div>
         </div>
     </div>

@@ -1,21 +1,23 @@
-.services-items .col {
+.Card-Two{
+    margin-top: 100px;
+} 
+
+.Card-One{
     margin-top: 200px;
 } 
 
-.services-items li {
-    margin-top: 200px;
-}
+.Card-Third{
+    margin-top: 0;
+} 
 
-
-.services-items li div {
+.wrapper-card{
     background: #fff;
-    list-style: none;
-    box-shadow: 0 24px 48px 0 rgba(0,0,0,.06);
+    box-shadow: 0 24px 48px 0 black;
     border-radius: 15px;
     padding: 40px;
 }
 
-.services-items li h3 {
+.wrapper-card h3 {
     font-size: 22px;
     font-weight: 500;
 }

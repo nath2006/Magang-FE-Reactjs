@@ -1,26 +1,27 @@
 import React from "react";
-import './styles.css'
+import '../css/styles.css'
 
 import svg from '../../../../../asset/img/img-svg/svg-2.png';
 
-const CardOne = () => {
+const CardTwo = () => {
     return (
-        <ul className="service-items">
-            <li className="col">
-                <div>
-                    <span className="serv-icon">
-                        <img src={svg} alt="img-1"></img>
-                    </span>
-                    <h3>CTO as a services</h3>
-                    <p> 
-                        Hire a chief Technology officier in a 
-                        short term or long term basis to lead your 
-                        devlopmenet teams and develop your technology strategy 
-                    </p>
-                </div>
-            </li>
-        </ul>
+    <div className="Card-Two">
+        <div className="col">
+            <div className="wrapper-card">
+                <span className="serv-icon">
+                    <img src={svg} alt="img-2"></img>
+                </span>
+                <h3>Squad as a service</h3>
+                <p> 
+                get matched with vetted engineers from around the
+                world and hire them without the overhead
+                </p>
+            </div>
+        </div>
+    </div>
     )
 }
 
-export default CardOne;
+
+
+export default CardTwo;

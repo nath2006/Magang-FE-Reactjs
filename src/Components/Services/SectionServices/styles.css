@@ -4,14 +4,11 @@ h5 {
 }
 
 .section-Services {
+    padding-top: 100px;
     background-color: #fff;
 }
 
 .section-Services .container .row {
     flex: 0 0 auto;
     width: 41.66666667%;
-}
-.services-items {
-    gap: 40px;
-    align-items: flex-start;
 }
