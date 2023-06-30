@@ -1,18 +1,20 @@
 .Card-Two{
     margin-top: 100px;
+    box-shadow: 0 24px 48px 0 rgba(0,0,0,.06);
 } 
 
 .Card-One{
     margin-top: 200px;
+    box-shadow: 0 24px 48px 0 rgba(0,0,0,.06);
 } 
 
 .Card-Third{
     margin-top: 0;
+    box-shadow: 0 24px 48px 0 rgba(0,0,0,.06);
 } 
 
 .wrapper-card{
     background: #fff;
-    box-shadow: 0 24px 48px 0 black;
     border-radius: 15px;
     padding: 40px;
 }

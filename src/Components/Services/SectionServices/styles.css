@@ -12,3 +12,8 @@ h5 {
     flex: 0 0 auto;
     width: 41.66666667%;
 }
+
+.service-items {
+    gap: 40px;
+    align-items: flex-start;
+}
