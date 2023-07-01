@@ -17,6 +17,7 @@
     background: #fff;
     border-radius: 15px;
     padding: 40px;
+    box-shadow: 0 24px 48px 0 rgba(0,0,0,.06);
 }
 
 .wrapper-card h3 {
@@ -33,4 +34,24 @@
     height: 120px;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width: 640px){
+    .Card-Two {
+        margin-top: 0;
+    }
+
+    .Card-One {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 768px){
+    .Card-Two {
+        margin-top: 0;
+    }
+
+    .Card-One {
+        margin-top: 0;
+    }
 }

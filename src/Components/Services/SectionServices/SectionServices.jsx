@@ -9,7 +9,7 @@ const SectionServices = () => {
   return (
     <div className="section-Services pt-100 pb-100 relativ">
         <div className="container mx-auto px-4">
-                <div className="row w-1/3">
+                <div className="row md:row w-1/3">
                     <h5>
                         Explore
                         <span className="text-green-400"> Services</span>
