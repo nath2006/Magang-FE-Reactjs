@@ -7,7 +7,7 @@ import CardThird from './partials/CardThrid/CardThrid';
 
 const SectionServices = () => {
   return (
-    <div className="section-Services pt-100 pb-100 relativ">
+    <div className="section-Services relativ">
         <div className="container mx-auto px-4">
                 <div className="row md:row w-1/3">
                     <h5>

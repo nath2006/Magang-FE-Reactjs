@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="15px" viewBox="0 0 18 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Arrow - Right</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="0,0" stroke-linecap="round" stroke-linejoin="round">
+        <g id="01.01.talent-1" transform="translate(-534.000000, -2870.000000)" stroke="#FFC629" stroke-width="2">
+            <g id="Section---2" transform="translate(0.000000, 2436.000000)">
+                <g id="Step---3" transform="translate(265.103056, 297.838760)">
+                    <g id="Arrow" transform="translate(257.896944, 123.161240)">
+                        <g id="Iconly/Light/Arrow---Right" transform="translate(7.179474, 8.205078)">
+                            <g id="Arrow---Right" transform="translate(4.871796, 5.847372)">
+                                <line x1="7.69230747" y1="13.8711777" x2="7.69230747" y2="-1.51343727" id="Stroke-1" transform="translate(7.692307, 6.178870) scale(-1, -1) rotate(90.000000) translate(-7.692307, -6.178870) "></line>
+                                <path d="M18.4612269,3.07641077 L12.2827649,9.28153944 L6.10327673,3.07641077" id="Stroke-3" transform="translate(12.282252, 6.178975) scale(-1, -1) rotate(90.000000) translate(-12.282252, -6.178975) "></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

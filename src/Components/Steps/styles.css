@@ -4,6 +4,45 @@ h4 {
 }
 
 img {
+    display: inline;
     position: relative;
     left: 5px;
+}
+
+.steps-ul {
+    list-style: none;
+    gap: 100px;
+    overflow: hidden;
+}
+
+.steps-ul li {
+    position: relative;
+    background: url(../../asset/img/small-shape.svg) no-repeat;
+
+}
+.step-number {
+    color: #ffc629;
+    font-size: 96px;
+    font-weight: 700;
+}
+
+.steps-ul h4 {
+    font-size: 20px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.steps-ul h4::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -15px;
+    background: #ffc629;
+    height: 4px;
+    width: 90px;
+    border-radius: 10px;
+}
+
+::after, :before {
+    box-sizing: border-box;
 }
