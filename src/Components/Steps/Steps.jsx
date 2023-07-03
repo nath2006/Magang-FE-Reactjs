@@ -26,11 +26,33 @@ const Steps = () => {
                                         </a>
                                     ,a memeber of our matching team will reach out to you at your selected time-slot; to fully understand your technical needs, culture, and stategic route. 
                                 </p>
-                                <div className="right-row"> 
+                                <div className="right-arrow"> 
                                     <img src={RightArrow} alt="Right arrow"></img>
                                 </div>
                             </li>
                             
+                            <li className="col">
+                                <span className="step-number">2</span>
+                                <h4 className="text-white"> Find your Matched talents </h4>
+                                <p> Start browsing through our system generated matched talents You are ensured not only the velocity but of top quality </p>
+                                <div className="right-arrow"> 
+                                    <img src={RightArrow} alt="Right arrow"></img>
+                                </div>
+                            </li>
+
+                            <li className="col">
+                                <span className="step-number">3</span>
+                                <h4 className="text-white"> kick start your Squad </h4>
+                                <p> 
+                                We offer a no risk trial period and then will be 
+                                with you every step of the ob boarding process and team 
+                                integeration     
+                                </p>
+                                <div className="right-arrow"> 
+                                    <img src={RightArrow} alt="Right arrow"></img>
+                                </div>
+                            </li>
+
                         </ul>
                     </div>
                 </div>

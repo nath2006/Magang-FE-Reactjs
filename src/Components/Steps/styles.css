@@ -46,3 +46,20 @@ img {
 ::after, :before {
     box-sizing: border-box;
 }
+img, svg {
+    vertical-align: middle;
+}
+
+.steps-ul .right-arrow {
+    position: absolute;
+    right: -50px;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -25px;
+    display: inline-block;
+    background-color: rgba(255,198,41,.1);
+    border-radius: 40px;
+    text-align: center;
+    line-height: 40px;
+}
