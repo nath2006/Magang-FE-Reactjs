@@ -12,14 +12,17 @@ img {
 .steps-ul {
     list-style: none;
     gap: 100px;
-    overflow: hidden;
 }
 
 .steps-ul li {
     position: relative;
     background: url(../../asset/img/small-shape.svg) no-repeat;
-
 }
+
+.col {
+    flex: 1 0 0%;
+}
+
 .step-number {
     color: #ffc629;
     font-size: 96px;
@@ -30,6 +33,7 @@ img {
     font-size: 20px;
     position: relative;
     margin-bottom: 40px;
+    overflow-x: auto;
 }
 
 .steps-ul h4::after {
@@ -41,7 +45,8 @@ img {
     height: 4px;
     width: 90px;
     border-radius: 10px;
-}
+} 
+
 
 ::after, :before {
     box-sizing: border-box;
