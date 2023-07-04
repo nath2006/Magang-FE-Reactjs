@@ -29,24 +29,19 @@ img {
     font-weight: 700;
 }
 
-.steps-ul h4 {
-    font-size: 20px;
-    position: relative;
-    margin-bottom: 40px;
-    overflow-x: auto;
-}
-
-.steps-ul h4::after {
-    position: absolute;
-    content: "";
-    left: 0;
-    bottom: -15px;
+.steps-ul h4 .line-shape {
+    margin-top: 2px;
     background: #ffc629;
     height: 4px;
     width: 90px;
     border-radius: 10px;
 } 
 
+.steps-ul h4 {
+    font-size: 20px;
+    position: relative;
+    margin-bottom: 40px;
+}
 
 ::after, :before {
     box-sizing: border-box;
