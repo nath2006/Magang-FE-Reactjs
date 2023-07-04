@@ -29,6 +29,19 @@ img {
     font-weight: 700;
 }
 
+.steps-ul h4 {
+    font-size: 20px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+
+.steps-ul p {
+    font-size: 16px;
+    line-height: 1.9;
+    color: #aba2c9
+}
+
 .steps-ul h4 .line-shape {
     margin-top: 2px;
     background: #ffc629;
@@ -37,15 +50,10 @@ img {
     border-radius: 10px;
 } 
 
-.steps-ul h4 {
-    font-size: 20px;
-    position: relative;
-    margin-bottom: 40px;
-}
-
 ::after, :before {
     box-sizing: border-box;
 }
+
 img, svg {
     vertical-align: middle;
 }

@@ -23,8 +23,8 @@ const Steps = () => {
                                 <div className="line-shape"></div>
                                 </h4>
                                 <p>After you fill out the 
-                                        <a className="text-white"> build your team form,</a>
-                                     a memeber of our matching team will reach out to you at your selected time-slot; to fully understand your technical needs, culture, and stategic route. 
+                                        <a href="" className="text-white"> build your team form,</a>
+                                        a memeber of our matching team will reach out to you at your selected time-slot; to fully understand your technical needs, culture, and stategic route. 
                                 </p>
                                 <div className="right-arrow"> 
                                     <img src={RightArrow} alt="Right arrow"></img>
