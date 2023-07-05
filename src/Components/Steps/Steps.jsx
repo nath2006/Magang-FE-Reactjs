@@ -6,6 +6,7 @@ import RightArrow from '../../asset/img/Arrow_Right.svg';
 
 const Steps = () => {
     return (
+        <div>
             <div className="Steps py-16 bg-[#422e87]">
                 <div className="container mx-auto px-4">
                     <div className="row">
@@ -57,8 +58,14 @@ const Steps = () => {
                                 </div>
                             </li>
                         </ul>
+                        <div className="button">
+                            <button className="flex justify-center items-center mx-auto btn-one px-4 py-2 bg-yellow-500 text-gray-900 font-bold rounded cursor-pointer">
+                                Hire Tech Team
+                            </button>
+                        </div>
                     </div>
                 </div>
+            </div>
     )
 }
 
