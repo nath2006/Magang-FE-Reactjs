@@ -58,8 +58,8 @@ img, svg {
     vertical-align: middle;
 }
 
-.steps-ul .right-arrow {
-    position: absolute;
+.steps-ul .col .right-arrow {
+    
     right: -50px;
     top: 50%;
     width: 40px;
@@ -71,3 +71,13 @@ img, svg {
     text-align: center;
     line-height: 40px;
 }
+
+.button {
+    padding: 0px 12px;
+}
+
+.button btn{
+    padding: 13px 30px;
+}
+
+@media (min-d)
