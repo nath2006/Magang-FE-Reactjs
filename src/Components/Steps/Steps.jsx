@@ -20,7 +20,7 @@ const Steps = () => {
                         <ul className="grid mx-auto text-left steps-ul p-3 pt-50 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3">
                             <li className="col">
                                 <span className="step-number">1</span>
-                                <h4 className="text-white">Brief your Business:
+                                <h4 className="text-white">Brief your Business
                                 <div className="line-shape"></div>
                                 </h4>
                                 <p>After you fill out the 
