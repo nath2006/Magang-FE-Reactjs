@@ -53,9 +53,9 @@ const Steps = () => {
                                 with you every step of the ob boarding process and team 
                                 integeration     
                                 </p>
-                                <div className="right-arrow"> 
+                                {/* <div className="right-arrow"> 
                                     <img src={RightArrow} alt="Right arrow"></img>
-                                </div>
+                                </div> */}
                             </li>
                         </ul>
                         <div className="button">

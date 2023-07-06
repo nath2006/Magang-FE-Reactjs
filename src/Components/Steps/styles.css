@@ -59,9 +59,9 @@ img, svg {
 }
 
 .steps-ul .col .right-arrow {
-    
-    right: -50px;
-    top: 50%;
+    position: absolute;
+    right: 0px;
+    top: 45%;
     width: 40px;
     height: 40px;
     margin-top: -25px;
@@ -72,6 +72,7 @@ img, svg {
     line-height: 40px;
 }
 
+
 .button {
     padding: 0px 12px;
 }
@@ -80,4 +81,13 @@ img, svg {
     padding: 13px 30px;
 }
 
-@media (min-d)
+
+@media (max-width: 786px){
+    .steps-ul .col .right-arrow {
+        transform: rotate(90deg);
+        position: relative;
+        left: 25px;
+        right: auto;
+        top: auto;
+        }
+    }
