@@ -5,7 +5,7 @@ import svg from '../../../../../asset/img/img-svg/svg-3.png';
 
 const CardThird= () => {
     return (
-    <div className="Card-Thrid">
+    <div className="Card-Thrid shadow-xl">
         <div className="col">
             <div className="wrapper-card">
                 <span className="serv-icon">
