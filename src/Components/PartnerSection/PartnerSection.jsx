@@ -13,53 +13,76 @@ import lastPath from '../../asset/img/last-path-shape.svg';
 
 const PartnerSection = () => {
     return (
-        <div id="parner-div" className="partner-div pt-100 pb-100">    
-            <div className="container">
-                <div className="row align-items-center">
-                    <div className="w-1/2 md:w-full">
-                        <div className="flex flex-wrap -mx-2">
-                            
-                            <div className="col-span-4 md:col-span-5 mt-5 relative z-10 flex items-end">
-                                <div className="logo-div mb-4">
-                                    <img src={sabbarLogo} alt="siems-logo" className="img-fluid"/> 
-                                </div>
-                                <div className="logo-div mb-4 ">
-                                    <img src={monshaatLogo} alt="siems-logo" className="img-fluid"/> 
-                                </div>
-                            </div>
+       <div id="partner-div" className="partner-div px-100">
+            <div className="container flex items-center">
+                <div className="w-1/2">
+                    <div className="flex flex-wrap mt-5 ml-40 gap-8">
 
-                            <div className="col-span-4 md:col-span-3 z-10">
-                                <div className="logo-div mb-4">
-                                    <img src={hasselLogo} alt="siems-logo" className="img-fluid"/> 
-                                </div>
-                                <div className="logo-div mb-4">
-                                    <img src={resalLogo} alt="siems-logo" className="img-fluid"/> 
-                                </div>
-                                <div className="logo-div mb-4">
-                                    <img src={mallerLogo} alt="siems-logo" className="img-fluid"/> 
-                                </div>
-                                <div className="logo-div mb-4">
-                                    <img src={taniaLogo} alt="siems-logo" className="img-fluid"/> 
-                                </div>
+                        <div className="col-span-4 elative z-10 ">
+                            <div className="logo-div mb-4">
+                                <img src={sabbarLogo} alt="siems-logo" className="img-fluid"/> 
                             </div>
-
-                            <div className="col-span-4 md:col-span-3 mt-5 z-10">
-                                    <div className="logo-div mb-4">
-                                        <img src={sapqLogo} alt="siems-logo" className="img-fluid"/> 
-                                    </div>
-                                    <div className="logo-div mb-4">
-                                        <img src={hrcomLogo} alt="siems-logo" className="img-fluid"/> 
-                                    </div>
+                            <div className="logo-div mb-4 ">
+                                <img src={monshaatLogo} alt="siems-logo" className="img-fluid"/> 
                             </div>
                         </div>
+
+                        <div className="col-span-4 md:col-span-3 z-10">
+                            <div className="logo-div mb-4">
+                                <img src={hasselLogo} alt="siems-logo" className="img-fluid"/> 
+                            </div>
+                            <div className="logo-div mb-4">
+                                <img src={resalLogo} alt="siems-logo" className="img-fluid"/> 
+                            </div>
+                            <div className="logo-div mb-4">
+                                <img src={mallerLogo} alt="siems-logo" className="img-fluid"/> 
+                            </div>
+                            <div className="logo-div mb-4">
+                                <img src={taniaLogo} alt="siems-logo" className="img-fluid"/> 
+                            </div>
+                        </div>
+
+                        <div className="col-span-4 md:col-span-3 mt-5 z-10">
+                            <div className="logo-div mb-4">
+                                <img src={sapqLogo} alt="siems-logo" className="img-fluid"/> 
+                            </div>
+                            <div className="logo-div mb-4">
+                                <img src={hrcomLogo} alt="siems-logo" className="img-fluid"/> 
+                            </div>
+                        </div>
+
                         <div className="absolute-last">
                                 <img src={lastPath} alt="lasth-path-logo" width="600px"/>
                         </div>
-                        <div className="w-1/2 md:w-full">
-                            <h4> We're proud of how far we've come, and how how more we'll go! </h4>
+
+                    </div>
+                </div>
+
+                <div className="w-1/2">
+                    <h2> We're proud of how far we've come, and how how more we'll go! </h2>
+                    <p> squadio is a reliable technical partner of more than 50 entities of governmental institutions,<br>
+                    </br> enterprises and thriving startups.
+                    </p>
+                    <div className="flex">
+                        <div className="w-1/4">
+                            <div className="count-box">
+                                <span className="count">10K+</span>
+                                <h5 className="count-name">Talent</h5>
+                            </div>
+                        </div>
+                        <div className="w-1/4">
+                            <div className="count-box">
+                                <span className="count">300</span>
+                                <h5 className="count-name">Squad</h5>
+                            </div>
+                        </div>
+                        <div className="w-1/4">
+                            <div className="count-box">
+                                <span className="count">125+</span>
+                                <h5 className="count-name">Country</h5>
+                            </div>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </div>

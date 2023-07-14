@@ -1,8 +1,16 @@
+h2 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
 .partners-div {
     overflow: hidden;
     background-color: #fff;
 }
-
 
 .logo-div {
     background: #fff;
@@ -22,9 +30,20 @@
     height: auto;
 }
 
-.absolute-last {
-    top: 0;
-    left: -350px;
+.container {
+    position: relative;
+    overflow: hidden;
+}
+
+.container .absolute-last {
     position: absolute;
+    top: 0;
+    left: -200px;
     z-index: 0;
+}
+
+.count {
+    font-size: 40px;
+    font-weight: 700;
+    color: #422e87;
 }
