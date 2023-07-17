@@ -25,7 +25,7 @@ h5 {
     justify-content: center;
 }
 
-.img-fluid, .img-thumbnail {
+.img-fluid {
     max-width: 100px;
     height: auto;
 }
@@ -47,3 +47,4 @@ h5 {
     font-weight: 700;
     color: #422e87;
 }
+

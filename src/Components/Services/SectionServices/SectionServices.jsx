@@ -10,10 +10,10 @@ const SectionServices = () => {
     <div className="section-Services relativ">
         <div className="container mx-auto px-4">
                 <div className="row sm:row w-full  md:row-2/5 lg:row-2/5 ">
-                    <h5>
+                    <h2>
                         Explore
                         <span className="text-green-400"> Services</span>
-                    </h5>
+                    </h2>
                     <p>
                     Squadio is an exclusive network of top-notch softaware <br></br> 
                     developers, deisgners, data experts, product managers and<br></br> 
