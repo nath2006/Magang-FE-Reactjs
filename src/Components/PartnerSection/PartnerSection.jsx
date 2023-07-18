@@ -13,12 +13,12 @@ import lastPath from '../../asset/img/last-path-shape.svg';
 
 const PartnerSection = () => {
     return (
-       <div id="partner-div" className="partner-div px-100">
-            <div className="container flex flex-col md:flex-row items-center">
-                <div className="md:w-1/2 ">
-                    <div className="flex flex-wrap mt-5 gap-4 md:ml-40 md:gap-8">
+        <div id="partner-div" className="partner-div px-100">
+            <div className="container mt-5 px-5 logo-section flex flex-warp-reverse items-center flex-col lg:flex-row">
+                <div className="lg:w-1/2 ">
+                    <div className="flex flex-wrap-wrap mt-5 gap-4 lg:ml-20 lg:gap-4">
 
-                        <div className="col-span-4 elative z-10 ">
+                        <div className="col-span-4  z-10 mt-10">
                             <div className="logo-div mb-4">
                                 <img src={sabbarLogo} alt="siems-logo" className="img-fluid"/> 
                             </div>
@@ -42,7 +42,7 @@ const PartnerSection = () => {
                             </div>
                         </div>
 
-                        <div className="col-span-4 mt-5 z-10">
+                        <div className="col-span-4 mt-10 z-10 ">
                             <div className="logo-div mb-4">
                                 <img src={sapqLogo} alt="siems-logo" className="img-fluid"/> 
                             </div>
@@ -58,7 +58,7 @@ const PartnerSection = () => {
                     </div>
                 </div>
 
-                <div className="text-section w-full px-5 mt-8 md:w-1/2 md:px-0 md:mt-0">
+                <div className="px-5 mt-8 lg:w-1/2 ml-2 lg:mt-0 lg:ml-5">
                     <h2> We're proud of how far we've come, and how how more we'll go! </h2>
                     <p> squadio is a reliable technical partner of more than 50 entities of governmental institutions, enterprises and thriving startups.
                     </p>
