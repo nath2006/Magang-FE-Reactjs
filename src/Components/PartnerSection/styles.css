@@ -7,9 +7,9 @@ h5 {
     font-size: 18px;
 }
 
-.partners-div {
-    overflow: hidden;
+.partner-div {
     background-color: #fff;
+    padding: 100px 0 ;
 }
 
 .logo-div {
@@ -48,3 +48,50 @@ h5 {
     color: #422e87;
 }
 
+
+@media (max-width: 1024px) { 
+    .container .absolute-last {
+        top: 400px;
+    }
+}
+
+@media (max-width: 991px) {
+    .partner-div{
+        padding: 50px 0;
+    }
+}
+
+@media (max-width:768px) { 
+
+    .text-section {
+        max-width: 720px;
+    }
+
+    .container .absolute-last {
+        top: 500px;
+    }
+}
+
+@media (max-width:557px) { 
+    .container .absolute-last {
+        top :600px;
+    }
+}
+
+@media (max-width:435px) { 
+    .container .absolute-last {
+        top :700px;
+    }
+}
+
+@media (max-width:395px) { 
+    .container .absolute-last {
+        top :800px;
+    }
+}
+
+@media (max-width:343px) { 
+    .container .absolute-last {
+        top :900px;
+    }
+}

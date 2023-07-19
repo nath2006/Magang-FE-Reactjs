@@ -7,7 +7,7 @@ import CardThird from './partials/CardThrid/CardThrid';
 
 const SectionServices = () => {
   return (
-    <div className="section-Services relativ">
+    <div className="section-Services relative">
         <div className="container mx-auto px-4">
                 <div className="row sm:row w-full  md:row-2/5 lg:row-2/5 ">
                     <h2>
