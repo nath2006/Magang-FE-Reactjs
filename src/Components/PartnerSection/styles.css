@@ -49,10 +49,16 @@ h5 {
 }
 
 
-@media (max-width: 1024px) { 
+@media (max-width: 1023px) { 
     .container .absolute-last {
         top: 400px;
+        left: -300px;
     }
+
+    /* .logo-section {
+        position: relative;
+        left: 300px;
+    } */
 }
 
 @media (max-width: 991px) {
@@ -62,7 +68,10 @@ h5 {
 }
 
 @media (max-width:768px) { 
-
+  h2 {
+        font-size: 40px;
+    }
+    
     .text-section {
         max-width: 720px;
     }
