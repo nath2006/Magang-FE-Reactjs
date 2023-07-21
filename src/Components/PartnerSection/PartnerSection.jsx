@@ -15,8 +15,8 @@ const PartnerSection = () => {
     return (
         <div id="partner-div" className="partner-div">
             <div className="container mt-5 px-6 flex flex-warp flex-col lg:flex-row items-center">
-                <div className=" lg:w-1/2 w-full order-2 lg:order-1 text-center">
-                    <div className="logo-section flex flex-wrap-wrap mt-5 gap-4 lg:ml-20 lg:gap-4">
+                <div className="logo-section lg:w-1/2 w-full order-2 lg:order-1">
+                    <div className="flex flex-wrap-wrap mt-5 gap-4 lg:ml-20 lg:gap-4">
                             <div className="col-span-4  z-10 mt-10">
                                 <div className="logo-div mb-4">
                                     <img src={sabbarLogo} alt="siems-logo" className="img-fluid"/> 
@@ -82,6 +82,7 @@ const PartnerSection = () => {
                     </div>
                 </div>
             </div>
+            
         </div>
     )
 }
