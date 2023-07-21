@@ -4,7 +4,7 @@ import Home from './Components/Home/Home'
 import Services from './Components/Services/Services';
 import Steps from './Components/Steps/Steps';
 import PartnerSection from './Components/PartnerSection/PartnerSection';
-
+import WordTestSection from './Components/WordTestSection/WordTestSection';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <Services/>
       <Steps/>
       <PartnerSection/>
+      <WordTestSection/>
     </div>
   );
 }
