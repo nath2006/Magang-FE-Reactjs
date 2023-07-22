@@ -5,6 +5,7 @@ import Services from './Components/Services/Services';
 import Steps from './Components/Steps/Steps';
 import PartnerSection from './Components/PartnerSection/PartnerSection';
 import WordTestSection from './Components/WordTestSection/WordTestSection';
+import FooterSection from './Components/FooterSection/FooterSection';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Steps/>
       <PartnerSection/>
       <WordTestSection/>
+      <FooterSection/>
     </div>
   );
 }
