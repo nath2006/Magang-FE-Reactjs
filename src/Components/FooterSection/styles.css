@@ -1,0 +1,29 @@
+.landing-footer .social-links li {
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    color: #292929;
+    text-align: center;
+    margin: 5px;
+}
+
+.landing-footer .social-links li:hover {
+    background: #ffc629;
+}
+
+.landing-footer .social-links li a .social-logo {
+    display: inline;
+    position: relative;
+    left: auto;
+    right: auto;
+    top: 7px;
+    width: 25px;
+}
+
+@media (max-width: 768px) {
+    .quick-link-section {
+        margin: 30px 0;
+    }
+}
