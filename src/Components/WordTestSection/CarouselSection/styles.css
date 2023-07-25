@@ -1,0 +1,36 @@
+.owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+}
+
+.owl-item .item {
+    background: #fff;
+    display: block;
+    width: 400px;
+    position: relative;
+    padding: 50px 30px 30px;
+    border-radius: 20px;
+    margin-top: 40px;
+    min-height: 250px;
+}
+
+.author-img-div {
+    position: absolute;
+    top: -30px;
+    left: 30px;
+    width: 100px;
+}
+
+.author-img {
+    width: 60px!important;
+    height: 60px;
+    border: 2px solid #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.owl-item img {
+    display: block;
+    width: 100%;
+}

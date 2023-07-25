@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Swiper from 'swiper';
 import 'swiper/swiper-bundle.min.css';
+
 import partner1 from '../../../asset/img/logo-partner/DRC-logo.png';
 import partner2 from '../../../asset/img/logo-partner/Morni-logo.png';
 import partner3 from '../../../asset/img/logo-partner/STC-logo.png';
@@ -13,10 +14,11 @@ const TrustedBy = () => {
   useEffect(() => {
     new Swiper('.swiper-container', {
       slidesPerView: 5,
-      spaceBetween: 4,
+      spaceBetween: 0,
       loop: true,
       autoplay: {
-        delay: 3000,
+        delay: 2000,
+        disableOnInteraction: false,
       },
     });
   }, []);
@@ -24,11 +26,11 @@ const TrustedBy = () => {
   return (
     <div className="bg-gray-100 py-10">
       <div className="container mx-auto px-4">
-        <div className="flex items-center">
-          <div className="w-1/3">
+        <div className="flex flex-wrap items-center">
+          <div className="lg:w-1/3 w-full">
             <h3 className="text-2xl font-bold mb-6">Proudly Served</h3>
           </div>
-          <div className="w-2/3">
+          <div className="lg:w-2/3 w-full">
             <div className="swiper-container">
               <div className="swiper-wrapper">
                 <div className="swiper-slide">

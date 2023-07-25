@@ -1,6 +1,9 @@
 import React from "react";
 import './styles.css';
 
+import CarouselSection from "./CarouselSection/CarouselSection";
+
+
 const wordTestSection = ( ) => {
     return (
         <div className="word py-6.5rem bg-[#ffc628] relative">
@@ -19,9 +22,7 @@ const wordTestSection = ( ) => {
                     </div>
 
                     <div className="w-full md:w-1/2">
-                        <div className="matching-skills-carousel">
-
-                        </div>
+                        <CarouselSection/>
                     </div>
                 </div>
             </div>
