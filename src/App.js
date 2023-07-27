@@ -7,6 +7,10 @@ import PartnerSection from './Components/PartnerSection/PartnerSection';
 import WordTestSection from './Components/WordTestSection/WordTestSection';
 import FooterSection from './Components/FooterSection/FooterSection';
 
+import $ from "jquery";
+window.$ = $;
+window.jQuery = $;
+
 function App() {
   return (
     <div className='landing-wrapper'>
