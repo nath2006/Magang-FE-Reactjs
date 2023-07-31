@@ -1,3 +1,9 @@
 .landing-wrapper {
     overflow-y: hidden;
 }
+
+@media (max-width: 1023px) { 
+    .landing-wrapper {
+        height: max-content;
+    }
+}

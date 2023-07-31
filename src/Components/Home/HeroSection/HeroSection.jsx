@@ -1,11 +1,11 @@
 import React from "react";
 import Talent from '../../../asset/img/talents.png';
-import './style.css'
+import './styles.css'
 
 const HeroSection = () => {
   return (
-    <div className="Hero-wrapper flex items-center justify-between">
-      <div className="Left-content w-1/2">
+    <div className="Hero-wrapper flex flex-wrap items-center justify-between">  
+      <div className="Left-content w-full lg:w-1/2 order-2 lg:order-1">
         <h1 className="Heading-1 font-bold text-white">
           <span>
           <span className="text-yellow-400">Build</span> Your Tech Team
@@ -26,7 +26,7 @@ const HeroSection = () => {
           </p>
       </div>
 
-      <div className="Right-content w-1/2">
+      <div className="Right-content w-full lg:w-1/2  order-1 lg:order-2">
         <img src={Talent} alt="Logo" className="Talent" width="500px" />
       </div>
     </div>

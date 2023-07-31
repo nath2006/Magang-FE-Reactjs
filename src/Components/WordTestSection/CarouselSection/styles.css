@@ -1,26 +1,18 @@
-.matching-skills-carousel .carousel .owl-stage-outer {
-    position: relative;
-    overflow: hidden;
-    -webkit-transform: translate3d(0px, 0px, 0px);
-}
 
-.matching-skills-carousel .owl-item .item {
+
+.matching-skills-carousel .owl-stage-outer .owl-stage .owl-item .item {
     background: #fff;
     display: block;
-    width: 400px;
+    width: 120px;
+    height: 100px;
     position: relative;
-    padding: 50px 30px 30px;
+    padding: 30px 20px 0px;
     border-radius: 20px;
     margin-top: 40px;
     min-height: 250px;
+    overflow: hidden;
 }
 
-.matching-skills-carousel .owl-item .item .author-img-div {
-    position: absolute;
-    top: -30px;
-    left: 30px;
-    width: 100px;
-}
 
 .matching-skills-carousel .owl-item .item .author-img-div {
     width: 60px!important;
@@ -30,6 +22,18 @@
     z-index: 1;
 }
 
+.matching-skills-carousel .owl-stage-outer .owl-stage  .owl-item .item .author-img{
+    border-radius: 100px;
+    width: 100%;
+    position: relative;
+    left:0;
+    z-index: 2;
+}
+
+.matching-skills-carousel .owl-stage-outer .owl-stage  .owl-item .item .mask-img{
+    position: absolute;
+    top: 10px;
+}
 .matching-skills-carousel .owl-item .item img {
     display: block;
     width: 100%;

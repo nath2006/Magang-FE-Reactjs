@@ -1,0 +1,104 @@
+.Hero-wrapper {
+    margin:0 150px;
+    padding: 100px 0;
+}
+.Hero-wrapper .Left-content {
+    margin-top: 3rem;
+}
+.Hero-wrapper .Left-content .Heading-1 {
+    font-size: 66px;
+}
+
+.Hero-wrapper .Left-content .Heading-1 .second-heading {
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 0;
+}
+
+.Hero-wrapper .Left-content .Heading-1 .Paragrahp {
+    font-size: 16px;
+}
+
+@media (max-width: 1023px) { 
+    .Hero-wrapper {
+        margin:0 20px;
+        padding: 50px 0;
+    }
+    .Hero-wrapper .Left-content {
+        text-align: center;
+    }
+    .Hero-wrapper .Right-content .Talent{
+        left: 150px;
+        right: auto;
+    }
+}
+@media (max-width: 995px) { 
+    .Hero-wrapper .Right-content .Talent{
+        left: 220px;
+        right: auto;
+    }
+}
+@media (max-width: 934px) {
+    .Hero-wrapper .Right-content .Talent{
+        left: 200px;
+        right: auto;
+    }
+}
+
+@media (max-width: 870px) {
+    .Hero-wrapper .Right-content .Talent{
+        left: 160px;
+        right: auto;
+    }
+}
+
+@media (max-width: 814px) {
+    .Hero-wrapper .Right-content .Talent{
+        left: 150px;
+        right: auto;
+    }
+}
+
+@media (max-width: 783px) {
+    .Hero-wrapper .Right-content .Talent{
+        left: 140px;
+        right: auto;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .Hero-wrapper .Right-content .Talent{
+        left: 120px;
+        right: auto;
+    }
+}
+
+
+@media (max-width: 735px) {
+    .Hero-wrapper .Right-content .Talent{
+        left: 90px;
+        right: auto;
+    }
+}
+
+@media (max-width: 680px) {
+    .Hero-wrapper .Right-content .Talent{
+        left: 60px;
+        right: auto;
+    }
+}
+
+@media (max-width: 680px) {
+    .Hero-wrapper .Right-content .Talent{
+        left: 60px;
+        right: auto;
+    }
+}
+
+@media (max-width: 630px) {
+    .Hero-wrapper .Right-content .Talent{
+        left: 0px;
+        right: auto;
+    }
+}
