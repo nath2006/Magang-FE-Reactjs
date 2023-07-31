@@ -59,7 +59,10 @@ h5 {
 @media (max-width: 1023px) {
     .container .absolute-last{
         top: 400px;
-        left: 0;
+        left: 200px;
+    }
+    .logo-section {
+        margin-left: 400px;
     }
 }
 
@@ -80,25 +83,33 @@ h5 {
 
     .container .absolute-last {
         top: 400px;
-        left: 0;
+        left: 100px;
+    }
+
+    .logo-section {
+        margin-left: 200px;
     }
 }
 
 @media (max-width:557px) { 
     .container .absolute-last {
-        top :570px;
+        top :450px;
+        left: 0px;
+    }
+    .logo-section {
+        margin-left: 0px;
     }
 }
 
 @media (max-width:435px) { 
     .container .absolute-last {
-        top :700px;
+        top :600px;
     }
 }
 
 @media (max-width:395px) { 
     .container .absolute-last {
-        top :800px;
+        top :600px;
     }
 }
 

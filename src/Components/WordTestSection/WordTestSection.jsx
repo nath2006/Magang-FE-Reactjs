@@ -6,20 +6,19 @@ import CarouselSection from "./CarouselSection/CarouselSection";
 
 const wordTestSection = ( ) => {
     return (
-        <div className="word py-[100px] bg-[#ffc628] relative">
+        <div className="word pt-0 pb-[50px] bg-[#ffc628] relative">
             <div className="word-section relative z-10">
-                <div className="flex flex-warp align-center">
+                <div className="">
 
-                        <div className="w-full md:w-1/4">
+                        <div className="text my-8 px-3 text-center">
                                 <h2 className="ourPartnersWords"> 
                                     Our-Partner
-                                    <br/>
-                                    words
+                                    <span className="text-[#422e87]"> words</span>
                                 </h2>
                         </div>
                         
   
-                    <div className="w-full md:w-3/4">
+                    <div className="">
                         <CarouselSection/>
                     </div>
 

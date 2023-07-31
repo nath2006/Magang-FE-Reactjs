@@ -9,36 +9,49 @@ import peopleOne from '../../../asset/img/peapole/poople-1.png';
 import maskLogo from '../../../asset/img/mask-logo.svg';
 
 const CarouselSection = () => {
-  // useEffect(() => {
-  // $(document).ready(function() {
-  //   $(".owl-carousel").owlCarousel({
-
-  //   });
-  // }, []);
-  // });
 
 
-return (
-
-    <div className="matching-skills-carousel">
-      <span id="carousel_prev"></span>
-      <div id="carousel" className="owl-carousel owl-theme owl-loaded owl-drag owl-hidden">
-        <div className="owl-stage-outer">
-          <div className="owl-stage" >
-            <div className="owl-item">
-              <div className="item">
-                <div className="outhor-img-div">
-                  <img className="author-img" src={peopleOne} width="70px" />
-                  <img className="mask-img" src={maskLogo} alt="mark-logo"/>
-                </div>
-                <p>
+return (    
+    <div className="Testimonial px-3 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-3">
+      <div className="Card">
+        <div className="col">
+            <div className="wrapper-card">
+                <img className="User" src={peopleOne} alt="user-img" width="70px"></img>
+                <img className="mask-img" src={maskLogo} alt="mark-logo"/>
+                <h3>Ali al hamzi</h3>
+                <p> 
                 Squadio helped us to establish a full fledged team with great harmony in a matter of weeks
                 </p>
-              </div>
             </div>
-          </div>
         </div>
+    </div>
+
+    <div className="Card">
+        <div className="col">
+            <div className="wrapper-card">
+                <img className="User" src={peopleOne} alt="user-img" width="70px"></img>
+                <img className="mask-img" src={maskLogo} alt="mark-logo"/>
+                <h3>Ali al hamzi</h3>
+                <p> 
+                Squadio helped us to establish a full fledged team with great harmony in a matter of weeks
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div className="Card">
+      <div className="col">
+          <div className="wrapper-card">
+              <img className="User" src={peopleOne} alt="user-img" width="70px"></img>
+              <img className="mask-img" src={maskLogo} alt="mark-logo"/>
+              <h3>Ali al hamzi</h3>
+              <p> 
+              Squadio helped us to establish a full fledged team with great harmony in a matter of weeks
+              </p>
+          </div>
       </div>
+    </div>
+
     </div>
   );
 };
