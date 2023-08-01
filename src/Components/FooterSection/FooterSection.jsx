@@ -26,7 +26,7 @@ const FooterSection = () => {
                     <div className="md:w-[100px] sm:w-[30px]"></div>
                     
                     <div className="quick-link-section lg:w-1/4 md:w-full text-white">
-                        <h5 className="mb-0.5 text-yellow-400">
+                        <h5 className="mb-0.5 text-yellow-300">
                             Quick Links
                         </h5>
                         <ul className="nav flex flex-col mb-0.5">

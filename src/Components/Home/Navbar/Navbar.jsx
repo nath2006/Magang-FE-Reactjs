@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+
 import Logo from '../../../asset/img/logo.svg';
 
 import './styles.css';
@@ -16,14 +17,14 @@ const Navbar = () => {
   let [open,setOpen]=useState(false)
 
   return (
-    <nav className="Navbar-wrapper flex items-center justify-between text-white">
+    <nav className="Navbar-wrapper flex items-center justify-between text-white md:flex md:items-center md:z-auto md:static absolute">
 
       <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
-          <span class="sr-only">Open main menu</span>
           <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
           </svg>
       </button>
+
           <div className="Navbar md:flex  items-center">
             <img src={Logo} alt="Logo" className="Logo" width="120"/>
           </div>
@@ -38,12 +39,13 @@ const Navbar = () => {
               }
             </ul>
           </div>
+          
           <div className='Right-nav flex flex-wrap justify-end'>
-            <button className="btn-one px-4 py-2 bg-yellow-500 text-gray-900 font-bold rounded">
+            <button className="btn-one px-4 py-2 bg-yellow-300 hover:bg-yellow-400 text-gray-900 font-bold rounded">
               Build Your Team
             </button>
             <button className="px-4 py-2">
-              <span className="border px-4 py-2  border-yellow-500 text-yellow-500 rounded  w-full">Apply as a talent</span>
+              <span className="border px-4 py-2  border-yellow-300 text-yellow-300 hover:bg-yellow-400 rounded  w-full">Apply as a talent</span>
             </button>
             <ul>
               <li className=" Right-li flex justify-end ml-4">

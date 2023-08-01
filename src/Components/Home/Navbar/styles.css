@@ -16,6 +16,12 @@ a {
     padding: 8px 0;
 }
 
+.Navbar-wrapper .Navbar .Logo {
+    display: inline;
+    position: relative;
+    left: 0px;
+}
+
 .Navbar-wrapper .Navbar a {
     font-size: 14px;
     font-weight: bold;

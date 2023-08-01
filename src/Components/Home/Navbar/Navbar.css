@@ -1,0 +1,13 @@
+.Right-li {
+  position: relative;
+  right: 20px;
+}
+
+@media (max-width: 1023px) {
+  .Right-nav {
+    visibility: hidden;
+  }
+  .Right-li {
+    visibility: hidden;
+  }
+}

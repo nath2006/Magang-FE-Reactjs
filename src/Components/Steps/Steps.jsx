@@ -12,7 +12,7 @@ const Steps = () => {
                     <div className="row">
                         <h4 className="font-medium text-white text-center">
                             How to
-                            <span className="text-yellow-400"> Hire </span>
+                            <span className="text-yellow-300"> Hire </span>
                             Through
                             <img src={logoDua} alt="logo-steps-section" width="120"></img>
                         </h4>
@@ -59,7 +59,7 @@ const Steps = () => {
                             </li>
                         </ul>
                         <div className="button">
-                            <button className="flex justify-center items-center mx-auto btn-one px-4 py-2 bg-yellow-500 text-gray-900 font-bold rounded cursor-pointer">
+                            <button className="flex justify-center items-center mx-auto btn-one px-4 py-2 bg-yellow-300 hover:bg-yellow-400 text-gray-900  font-bold rounded cursor-pointer">
                                 Hire Tech Team
                             </button>
                         </div>
