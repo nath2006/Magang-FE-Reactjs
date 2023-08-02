@@ -1,8 +1,15 @@
-import React from "react";
-import Talent from '../../../asset/img/talents.png';
+import React,{useEffect} from "react";
+import AOS from 'aos';
+
+import 'aos/dist/aos.css';
 import './styles.css'
 
+import Talent from '../../../asset/img/talents.png';
+
 const HeroSection = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="Hero-wrapper flex flex-wrap items-center justify-between">  
       <div className="Left-content w-full lg:w-1/2 order-2 lg:order-1">
@@ -26,7 +33,10 @@ const HeroSection = () => {
           </p>
       </div>
 
-      <div className="Right-content w-full lg:w-1/2  order-1 lg:order-2">
+      <div 
+        data-aos="fade-left" 
+        data-aos-duration="1500"
+        className="Right-content w-full lg:w-1/2  order-1 lg:order-2">
         <img src={Talent} alt="Logo" className="Talent" width="500px" />
       </div>
     </div>

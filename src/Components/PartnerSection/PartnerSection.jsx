@@ -1,4 +1,7 @@
-import React from "react";
+import React, {useEffect} from "react";
+import AOS from 'aos';
+
+import 'aos/dist/aos.css';
 import './styles.css';
 
 import sabbarLogo from '../../asset/img/logo-partner/sabbar-ar.svg';
@@ -12,10 +15,16 @@ import hrcomLogo from '../../asset/img/logo-partner/hrcom-logo.png';
 import lastPath from '../../asset/img/last-path-shape.svg';
 
 const PartnerSection = () => {
+    useEffect(() => {
+        AOS.init();
+      }, []);
     return (
         <div id="partner-div" className="partner-div">
             <div className="container mt-5 px-6 flex flex-warp flex-col lg:flex-row items-center ">
-                <div className="logo-section lg:w-1/2 w-full order-2 lg:order-1">
+                <div
+                    data-auto="fade-right"
+                    data-aos-duration="1500"
+                    className="logo-section lg:w-1/2 w-full order-2 lg:order-1">
                     <div className="flex flex-wrap-wrap mt-5 gap-4 lg:ml-20 lg:gap-4">
                             <div className="col-span-4  z-10 mt-10">
                                 <div className="logo-div mb-4">
@@ -56,7 +65,10 @@ const PartnerSection = () => {
                     </div>
                 </div>
 
-                <div className="text-section mx-auto lg:w-1/2 w-full px-5 mt-8 ml-2 lg:mt-0 lg:ml-5 order-1 lg:order-2 ">
+                <div 
+                data-auto="fade-left"
+                data-aos-duration="1500" 
+                className="text-section mx-auto lg:w-1/2 w-full px-5 mt-8 ml-2 lg:mt-0 lg:ml-5 order-1 lg:order-2 ">
                     <h2> We're proud of how far we've come, and how how more we'll go! </h2>
                     <p> squadio is a reliable technical partner of more than 50 entities of governmental institutions, enterprises and thriving startups.
                     </p>

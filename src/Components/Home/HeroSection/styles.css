@@ -32,6 +32,18 @@
         right: auto;
     }
 }
+@media (max-width: 1023px) { 
+    .Hero-wrapper .Right-content .Talent{
+        left: 220px;
+        right: auto;
+    }
+}
+@media (max-width: 1014px) { 
+    .Hero-wrapper .Right-content .Talent{
+        left: 230px;
+        right: auto;
+    }
+}
 @media (max-width: 995px) { 
     .Hero-wrapper .Right-content .Talent{
         left: 220px;
