@@ -1,10 +1,12 @@
-import React, {useState} from 'react';
+import { useState} from "react";
+import { Bars3Icon } from "@heroicons/react/24/outline";
+
 
 import Logo from '../../../asset/img/logo.svg';
+import "./Navbar.css"
 
-import './styles.css';
-
-const Navbar = () => {
+const NavbarDua = () => {
+  const [toggleMenu, setToggleMenu] = useState(false);
 
   let Links = [
     {name:"Home", link:"/"},
@@ -14,47 +16,77 @@ const Navbar = () => {
     {name:"Success stories", links:"/"}
   ]
 
-  let [open,setOpen]=useState(false)
-
   return (
-    <nav className="Navbar-wrapper flex items-center justify-between text-white md:flex md:items-center md:z-auto md:static absolute">
-
-      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
-          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-          </svg>
-      </button>
-
-          <div className="Navbar md:flex  items-center">
-            <img src={Logo} alt="Logo" className="Logo" width="120"/>
-          </div>
-          <div className="Left-nav flex items-center">
-            <ul className={` lg:space-x-4 xl:space-x-8 md:flex md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'}`}> 
+      <nav className="Navbar-wrappers text-white ">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex mx-auto justify-between">
+            {/* Primary menu and logo */}
+            <div className="flex items-center gap-8 lg:gap-4 my-0 lg:my-2 lg:mx-auto xl:gap-12">
+              {/* logo */}
+              <div className="Navbar pr-1">
+                <img src={Logo} alt="Logo" className="Logo" width="120"/>
+              </div>
+              {/* primary */}
+              <div className="hidden lg:flex lg:gap-4 xl:gap-8 ">
               {
                 Links.map((link) => (
-                  <li>
                     <a href={link.link}>{link.name}</a>
-                  </li>
                 ))
               }
-            </ul>
+              </div>
+
+                <div className="Right-nav">
+                    <button className="btn-one px-4 py-2 bg-yellow-300 hover:bg-yellow-400 text-gray-900 font-bold rounded">
+                        Build Your Team
+                    </button>
+                    <button className="px-4 py-4">
+                      <span className="border px-4 py-2  border-yellow-300 text-yellow-300 hover:bg-yellow-400 rounded  w-full">Apply as a talent</span>
+                    </button>
+                </div>
+                <ul className="Right-li">
+                  <li className="">
+                    <a href="/" className="text-white hover:text-gray-300">Login</a>
+                  </li>
+                </ul>
+            </div>
+            {/* secondary */}
+            <div className="flex gap-6">
+            
+              {/* Mobile navigation toggle */}
+              <div className="lg:hidden flex items-center">
+                <button onClick={() => setToggleMenu(!toggleMenu)}>
+                  <Bars3Icon className="h-6" />
+                </button>
+              </div>
+            </div>
           </div>
-          
-          <div className='Right-nav flex flex-wrap justify-end'>
-            <button className="btn-one px-4 py-2 bg-yellow-300 hover:bg-yellow-400 text-gray-900 font-bold rounded">
-              Build Your Team
-            </button>
-            <button className="px-4 py-2">
-              <span className="border px-4 py-2  border-yellow-300 text-yellow-300 hover:bg-yellow-400 rounded  w-full">Apply as a talent</span>
-            </button>
-            <ul>
-              <li className=" Right-li flex justify-end ml-4">
-              <a href="/" className="text-white hover:text-gray-300">Login</a>
-              </li>
-            </ul>
+        </div>
+        {/* mobile navigation */}
+        <div
+          className={`fixed z-40 w-full bg-white overflow-hidden flex flex-col lg:hidden gap-12  origin-top duration-700 ${
+            !toggleMenu ? "h-0" : "h-50%"
+          }`}
+        >
+          <div className="px-8 py-4">
+            <div className="flex flex-col gap-8 font-bold text-gray-900 tracking-wider">
+            {
+                Links.map((link) => (
+                    <a href={link.link}>{link.name}</a>
+                ))
+              }
+            </div>
+            <div className="mt-4 flex flex-wrap">
+              <button className="btn-one px-4 py-4 bg-yellow-300 hover:bg-yellow-400 text-gray-900 font-bold rounded">
+                  Build Your Team
+              </button>
+              <button className="px-0 py-4 md:px-4">
+                <span className="border px-4 py-2  border-yellow-300 text-yellow-300 hover:bg-yellow-400 rounded  w-full">Apply as a talent</span>
+              </button>
+            </div>
           </div>
-    </nav>
+        </div>
+      </nav>
   );
 }
 
-export default Navbar;
+export default NavbarDua;
