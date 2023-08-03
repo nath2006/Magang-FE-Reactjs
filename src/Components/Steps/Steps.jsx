@@ -7,7 +7,7 @@ import RightArrow from '../../asset/img/Arrow_Right.svg';
 const Steps = () => {
     return (
         <div>
-            <div className="Steps py-16 bg-[#422e87]">
+            <div id="steps" className="Steps py-16 bg-[#422e87]">
                 <div className="container mx-auto px-4">
                     <div className="row">
                         <h4 className="font-medium text-white text-center">

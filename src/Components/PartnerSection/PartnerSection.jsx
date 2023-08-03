@@ -19,7 +19,7 @@ const PartnerSection = () => {
         AOS.init();
       }, []);
     return (
-        <div id="partner-div" className="partner-div">
+        <div id="partner-section" className="partner-div">
             <div className="container mt-5 px-6 flex flex-warp flex-col lg:flex-row items-center ">
                 <div className="logo-section lg:w-1/2 w-full order-2 lg:order-1">
                     <div className="flex flex-wrap-wrap mt-5 gap-4 lg:ml-20 lg:gap-4">

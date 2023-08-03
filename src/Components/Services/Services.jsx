@@ -4,10 +4,10 @@ import SectionServices from "./SectionServices/SectionServices";
 
 const Services = () => {
     return (
-    <>    
+    <div id="our-services">    
         <TrustedBy />
         <SectionServices />
-    </>
+    </div>
     )
 };
 

@@ -6,9 +6,9 @@ import CarouselSection from "./CardSection/CardSection";
 
 const wordTestSection = ( ) => {
     return (
-        <div className="word pt-0 pb-[50px] bg-[#ffc628] relative">
+        <div id="success-story" className="word pt-0 pb-[50px] bg-[#ffc628] relative">
             <div className="word-section relative z-10">
-                <div className="">
+                <>
 
                         <div className="text my-8 px-3 text-center">
                                 <h2 className="ourPartnersWords"> 
@@ -22,7 +22,7 @@ const wordTestSection = ( ) => {
                         <CarouselSection/>
                     </div>
 
-                </div>
+                </>
             </div>
         </div>
     )
