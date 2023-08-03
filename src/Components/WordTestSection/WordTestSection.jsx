@@ -1,7 +1,7 @@
 import React from "react";
 import './styles.css';
 
-import CarouselSection from "./CarouselSection/CarouselSection";
+import CarouselSection from "./CardSection/CardSection";
 
 
 const wordTestSection = ( ) => {
