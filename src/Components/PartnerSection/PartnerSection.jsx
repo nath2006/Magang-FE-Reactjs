@@ -1,4 +1,5 @@
 import React, {useEffect} from "react";
+import CountUp from 'react-countup';
 import AOS from "aos";
 
 import 'aos/dist/aos.css';
@@ -17,7 +18,8 @@ import lastPath from '../../asset/img/last-path-shape.svg';
 const PartnerSection = () => {
     useEffect(() => {
         AOS.init();
-      }, []);
+    }, []);
+
     return (
         <div id="partner-section" className="partner-div">
             <div className="container mt-5 px-6 flex flex-warp flex-col lg:flex-row items-center ">
@@ -65,26 +67,61 @@ const PartnerSection = () => {
                 <div 
                 data-aos="fade-left"
                 data-aos-duration="1500" 
-                className="text-section mx-auto lg:w-1/2 w-full px-5 mt-8 ml-2 lg:mt-0 lg:ml-5 order-1 lg:order-2 ">
+                className="text-section mx-auto lg:w-1/2 w-full px-0 mt-8 ml-2 lg:mt-0 lg:ml-5 order-1 lg:order-2 ">
                     <h2> We're proud of how far we've come, and how how more we'll go! </h2>
                     <p> squadio is a reliable technical partner of more than 50 entities of governmental institutions, enterprises and thriving startups.
                     </p>
-                    <div className="flex flex-wrap-wrap gap-4 lg:gap-8">
+                    <div className="flex flex-wrap-wrap gap-4 lg:gap-8 ">
                         <div className="">
                             <div className="count-box">
-                                <span className="count">10K+</span>
+                                <CountUp 
+                                    start={0} 
+                                    end={10} 
+                                    delay={0} 
+                                    suffix={'K+'}
+                                    duration={10}
+                                >
+                                    {({ countUpRef }) => (
+                                        <div>
+                                            <span className="count" ref={countUpRef}/>
+                                        </div>
+                                    )}
+                                </CountUp>
                                 <h5 className="count-name">Talent</h5>
                             </div>
                         </div>
                         <div className="">
                             <div className="count-box">
-                                <span className="count">300</span>
+                                <CountUp 
+                                    start={0} 
+                                    end={300} 
+                                    delay={0}
+                                    duration={8}
+                                >
+                                    {({ countUpRef }) => (
+                                        <div>
+                                            <span className="count" ref={countUpRef}/>
+                                        </div>
+                                    )}
+                                </CountUp>
                                 <h5 className="count-name">Squad</h5>
                             </div>
                         </div>
                         <div className="">
                             <div className="count-box">
-                                <span className="count">125+</span>
+                            <CountUp
+                                start={0} 
+                                end={125} 
+                                delay={0} 
+                                suffix={'K+'} 
+                                duration={10}
+                            >
+                                    {({ countUpRef }) => (
+                                        <div>
+                                            <span className="count" ref={countUpRef}/>
+                                        </div>
+                                    )}
+                                </CountUp>
                                 <h5 className="count-name">Country</h5>
                             </div>
                         </div>
