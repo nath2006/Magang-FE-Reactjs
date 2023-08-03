@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 // import 'owl.carousel/dist/assets/owl.theme.default.css';
 import './styles.css';
 
-import peopleOne from '../../../asset/img/peapole/poople-1.png';
+import peopleOne from '../../../asset/img/people/people.png'
 import maskLogo from '../../../asset/img/mask-logo.svg';
 
 const CarouselSection = () => {
