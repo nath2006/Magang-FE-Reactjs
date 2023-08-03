@@ -17,7 +17,7 @@ const FooterSection = () => {
                         <a className="flex items-center mb-1">
                             <img src={logoFooter} className="logo-footer mb-1" width="100px"/>
                         </a>
-                        <p className="text-white">
+                        <p className="text-footer">
                             We form dedicated squads of our top-notch engineers and tech experts to build your product up digitally 
                         </p>
                     </div>

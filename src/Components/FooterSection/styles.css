@@ -13,6 +13,10 @@
     background: #ffc629;
 }
 
+.landing-footer .text-footer{
+    color: #fff;
+}
+
 .landing-footer .social-links li a .social-logo {
     display: inline;
     position: relative;

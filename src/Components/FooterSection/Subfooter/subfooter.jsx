@@ -4,7 +4,7 @@ import './styles.css'
 const subfooter = () => {
     return (
         <div className="sub-footer text-center">
-            <p className="mb-0 text-white">
+            <p className="mb-0 text">
                 All rights reserved @ Squadio
             </p>
         </div>
